@@ -2,7 +2,7 @@ var urlRPC = "https://sepolia.mode.network";
 var currency = "ETH";
 var networkName = "Mode Testnet"
 const chainId = 919;
-const milisecondsToWait = 12000;
+const milisecondsToWait = 18000;
 
 var web3 = new Web3(new Web3.providers.HttpProvider(urlRPC));
 const MMSDK = new MetaMaskSDK.MetaMaskSDK();
